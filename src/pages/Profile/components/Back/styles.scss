@@ -1,0 +1,14 @@
+.profile__back {
+  grid-area: Back;
+  background-color: $red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back__icon {
+  background-color: $white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}

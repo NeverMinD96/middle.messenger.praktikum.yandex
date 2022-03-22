@@ -1,0 +1,13 @@
+mixin form__input(props)
+    .form__content-item
+        label.label__container
+            div
+                input.label__input(
+                    type=props.type,
+                    name=props.name,
+                    required=props.required
+                )
+                if props.error
+                    .label__text-error= props.errorText
+                else
+                    .label__text= props.label

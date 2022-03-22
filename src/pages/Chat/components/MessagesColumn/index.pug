@@ -1,0 +1,27 @@
+include ./components/MessageItem/index
+
+.messages__column
+  .messages__header
+    a.messages__header-avatar(href='/src/pages/Profile/index.pug')
+      img(src="/public/images/avatar.png", alt="user_avatar")
+    .messages__header-search
+      img(src="/public/icons/search.svg", alt="search_icon")
+      input.search__input(placeholder="Search...")
+  .messages__content
+    ul.messages__list
+      +message-item('/public/images/1.png', 'Mestniy', 'махаца бушь?')
+      +message-item('/public/images/2.png', 'Necr', 'lorem lorem lorem lorem')
+      +message-item('/public/images/3.png', 'User', 'продаю гараж')
+      +message-item('/public/images/4.png', 'Kizaru', 'где даги, там напряги')
+      +message-item('/public/images/5.png', 'MMMM', 'чингис из казахстании')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')
+      +message-item('/public/images/6.png', 'No name', 'варю плов')

@@ -1,0 +1,9 @@
+extends ../../layouts/content
+include ../../components/ErrorPageContainer/index
+
+block append head
+    title Error 404
+    script(src="../../index.js", type="module")
+
+block content
+    +ErrorPage('500','We are already fixing')

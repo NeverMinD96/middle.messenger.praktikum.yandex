@@ -1,0 +1,7 @@
+mixin ErrorPage(title, text)
+    .error__page
+        .error__container
+            .error__content
+                h1.error__page-title=title
+                .error__page-text=text
+            a(href='/').error__link go back

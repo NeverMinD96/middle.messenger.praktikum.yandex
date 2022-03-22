@@ -1,0 +1,23 @@
+.page__registration {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration__container {
+  background-color: $main__bgc;
+  padding: 30px;
+  max-width: 350px;
+  max-height: 730px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid $border__color;
+  border-radius: 12px;
+  gap: 40px;
+}

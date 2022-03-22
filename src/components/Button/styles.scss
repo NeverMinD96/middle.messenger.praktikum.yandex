@@ -1,0 +1,39 @@
+@import "src/styles/variables";
+
+.button {
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 13px;
+  transition: all .3s ease;
+  color: $white;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.default__button {
+  border: 1px solid $border__color;
+
+  &:hover {
+    background-color: $purple;
+  }
+}
+
+.primary__button {
+  background-color: $purple;
+
+  &:hover {
+    background-color: $white;
+    color: $purple;
+  }
+}
+
+.exit__button {
+  background-color: $red;
+
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
+}
+

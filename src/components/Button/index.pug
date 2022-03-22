@@ -1,0 +1,10 @@
+mixin Button(name, text, type, typeBtn)
+    case typeBtn
+        when 'default'
+            button.default__button.button(name=name, type=type)= text
+        when 'primary'
+            button.primary__button.button(name=name, type=type)= text
+        when 'exit'
+            button.exit__button.button(name=name, type=type)= text
+
+
