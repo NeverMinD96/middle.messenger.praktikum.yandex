@@ -1,2 +1,6 @@
+node_modules
+.github
+dist
+.parcel-cache
 .idea
 .DS_Store

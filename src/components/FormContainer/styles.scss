@@ -1,0 +1,34 @@
+.form__title {
+
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__data {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1 1 auto;
+}
+
+.form__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+
+  &-link {
+    font-size: 12px;
+    transition: color .3s ease;
+
+    &:hover {
+      color: $purple;
+      transition: color .3s ease;
+    }
+  }
+}

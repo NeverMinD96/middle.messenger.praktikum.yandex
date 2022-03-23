@@ -1,0 +1,24 @@
+extends ../../layouts/content
+include ../../components/FormInput/index
+include ../../components/FormContainer/index
+include ../../components/Button/index
+
+block append head
+  title Registration
+  script(src='../../index.js', type='module')
+
+block content
+  main.page__registration
+    .registration__container
+      +Form('Registration')
+        .form__data
+          +form__input({type: 'email', name: 'email', label: 'Email', required: true})
+          +form__input({type: 'text', name: 'login', label: 'login', required: true})
+          +form__input({ type: 'password', name: 'password', label: 'password', required: true, error: true, errorText: 'invalid password' })
+          +form__input({type: 'text', name: 'first_name', label: 'first_name', required: true})
+          +form__input({type: 'text', name: 'second_name', label: 'second_name', required: true})
+          +form__input({type: 'tel', name: 'phone', label: 'Phone', required: true})
+      .form__footer
+        +Button('registration__button', 'Registration', 'submit', 'default')
+        .form__footer-link
+          a(href='../SignIn/index.pug') Already have an account?

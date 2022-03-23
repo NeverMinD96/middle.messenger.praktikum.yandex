@@ -1,0 +1,33 @@
+.user__data {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  &-list {
+    width: 100%;
+    max-width: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+  }
+
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $border__color;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .item__category {
+    font-weight: 600;
+  }
+
+  .item__user {
+    color: $purple;
+  }
+}

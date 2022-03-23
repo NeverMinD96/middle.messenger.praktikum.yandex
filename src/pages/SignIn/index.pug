@@ -1,0 +1,20 @@
+extends ../../layouts/content
+include ../../components/FormInput/index
+include ../../components/Button/index
+include ../../components/FormContainer/index
+
+block append head
+  title Sign-In
+  script(src='../../index.js', type='module')
+
+block content
+  main.page__sign-in
+    .sign-in__container
+      +Form('Log in')
+        .form__data
+          +form__input({name: 'login', type: 'text', required: true, label: 'login'})
+          +form__input({name: 'password', type: 'password', required: true, label: 'password'})
+      .form__footer
+        +Button('sign-in__button', 'Sign-in', 'submit', 'default')
+        .form__footer-link
+          a(href='../Registration/index.pug') Create account

@@ -1,0 +1,7 @@
+include ../../../../../../components/Link/index
+include ../../../../../../components/Button/index
+
+.profile__controllers
+  +Link('Change Data', '../EditProfile/index.pug', 'primary')
+  +Link('Change Password', '../EditPassword/index.pug', 'primary')
+  +Button('exit-button', 'Exit', 'button', 'exit')

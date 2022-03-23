@@ -1,0 +1,48 @@
+@import 'src/styles/variables';
+
+.form__content-item {
+}
+
+.label__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.label__input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid $border__color;
+  padding: 5px 20px;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  color: $white;
+
+  &:focus + .label__text {
+    transition: all .3s ease;
+    font-size: 12px;
+    transform: translateY(-55px);
+  }
+
+  &:valid + .label__text {
+    transition: all .3s ease;
+    font-size: 12px;
+    transform: translateY(-55px);
+  }
+}
+
+.label__text {
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  transform: translateY(-25px);
+  color: $gray;
+  transition: all .3s ease;
+
+  &-error {
+    color: $red;
+  }
+}
