@@ -28,7 +28,7 @@ npm install
     - `npm run start` - собирает production пакет статики и запускает express сервер на 3000 порту
 
 ## Netlify
-
+> https://teal-jalebi-ffb289.netlify.app/
 
 ---
 
