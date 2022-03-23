@@ -1,7 +1,7 @@
-@import "./components/DialogueColumn/styles";
-@import "./components/MessagesColumn/styles";
+@import './components/DialogueColumn/styles';
+@import './components/MessagesColumn/styles';
 
-.messanger {
+.messenger {
   display: grid;
   grid-template-areas:
           'messages dialogue'

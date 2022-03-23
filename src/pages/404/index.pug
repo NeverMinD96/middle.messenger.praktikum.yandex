@@ -2,8 +2,8 @@ extends ../../layouts/content
 include ../../components/ErrorPageContainer/index
 
 block append head
-    title Error 404
-    script(src="../../index.js", type="module")
+  title Error 404
+  script(src='../../index.js', type='module')
 
 block content
-    +ErrorPage('404','Got it wrong')
+  +ErrorPage('404','Got it wrong')

@@ -4,20 +4,17 @@ include ../../components/FormInput/index
 include ../../components/Button/index
 
 block append head
-    title Edit Password
-    script(src="../../index.js", type="module")
+  title Edit Password
+  script(src='../../index.js', type='module')
 
 block content
-    .page__profile
-        include ../Profile/components/Back/index
-        section.user__profile
-            main.profile__data
-                +Form('Change password')
-                    +form__input({type: 'password', name: 'oldPassword', label: 'Old Password', required: false})
-                    +form__input({type: 'password', name: 'newPassword', label: 'New Password', required: false})
-                    +form__input({type: 'password', name: 'repeatPassword', label: 'Repeat Password', required: false})
-                .profile__controllers
-                    +Button('save-newPassword__button', 'Save', 'send', 'primary')
-
-
-
+  .page__profile
+    include ../Profile/components/Back/index
+    section.user__profile
+      main.profile__data
+        +Form('Change password')
+          +form__input({type: 'password', name: 'oldPassword', label: 'Old Password', required: false})
+          +form__input({type: 'password', name: 'newPassword', label: 'New Password', required: false})
+          +form__input({type: 'password', name: 'repeatPassword', label: 'Repeat Password', required: false})
+        .profile__controllers
+          +Button('save-newPassword__button', 'Save', 'send', 'primary')

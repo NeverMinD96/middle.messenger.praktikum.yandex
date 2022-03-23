@@ -3,10 +3,10 @@ include ./components/MessageItem/index
 .messages__column
   .messages__header
     a.messages__header-avatar(href='/src/pages/Profile/index.pug')
-      img(src="/public/images/avatar.png", alt="user_avatar")
+      img(src='/public/images/avatar.png', alt='user_avatar')
     .messages__header-search
-      img(src="/public/icons/search.svg", alt="search_icon")
-      input.search__input(placeholder="Search...")
+      img(src='/public/icons/search.svg', alt='search_icon')
+      input.search__input(placeholder='Search...')
   .messages__content
     ul.messages__list
       +message-item('/public/images/1.png', 'Mestniy', 'махаца бушь?')
