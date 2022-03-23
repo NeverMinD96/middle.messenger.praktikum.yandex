@@ -1,6 +1,7 @@
+include ../../../../../../components/Link/index
 include ../../../../../../components/Button/index
 
 .profile__controllers
-  +Button('change__data', 'Change Data', 'send', 'primary')
-  +Button('change__password', 'Change Password', 'send', 'primary')
-  +Button('exit', 'Exit', 'send', 'exit')
+  +Link('Change Data', '../EditProfile/index.pug', 'primary')
+  +Link('Change Password', '../EditPassword/index.pug', 'primary')
+  +Button('exit-button', 'Exit', 'button', 'exit')

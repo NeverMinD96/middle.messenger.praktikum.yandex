@@ -1,0 +1,21 @@
+.link__component {
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 13px;
+  transition: all .3s ease;
+  color: $white;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.primary__link {
+  background-color: $purple;
+
+  &:hover {
+    background-color: $white;
+    color: $purple;
+  }
+}
+
