@@ -1,3 +1,4 @@
+
 # MyMess
 
 ---
@@ -37,4 +38,7 @@ npm install
 > https://www.figma.com/file/nCgyv74DD9fFBOXv490yU0/Messanger?node-id=0%3A1
 
 До конца не готово
+
+=======
+[Sprint 1](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/2)
 
