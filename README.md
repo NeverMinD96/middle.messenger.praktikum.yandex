@@ -23,9 +23,9 @@ npm install
 ```
 
 - Запуск проекта
-  - `npm run dev` - запускает сборку и дев-сервер parcel
-  - `npm run build` - собирает production пакет статики
-  - `npm run start` - собирает production пакет статики и запускает express сервер на 3000 порту
+    - `npm run dev` - запускает сборку и дев-сервер parcel
+    - `npm run build` - собирает production пакет статики
+    - `npm run start` - собирает production пакет статики и запускает express сервер на 3000 порту
 
 ## Netlify
 > https://teal-jalebi-ffb289.netlify.app/
@@ -39,9 +39,9 @@ npm install
 До конца не готово
 
 ---
-### [Sprint 1](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/2)
+###[Sprint 1](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/2)
 
 ---
 
-### [Sprint 2](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/3)
+###[Sprint 2](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/3)
 

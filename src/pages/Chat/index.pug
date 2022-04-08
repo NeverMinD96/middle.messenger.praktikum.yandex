@@ -2,9 +2,8 @@ extends ../../layouts/content
 
 block append head
   title Chat
-  script(src='../../index.js', type='module')
+  link(rel='stylesheet', href='../../styles/index.scss')
+  script(src='./index.ts', type='module')
 
 block content
-  main.messenger
-    include ./components/MessagesColumn/index
-    include ./components/DialogueColumn/index
+  #chat-page

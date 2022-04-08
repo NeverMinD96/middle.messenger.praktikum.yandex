@@ -1,23 +1,9 @@
 extends ../../layouts/content
-include ../../components/FormContainer/index
-include ../../components/FormInput/index
-include ../../components/Button/index
 
 block append head
   title Edit Profile
-  script(src='../../index.js', type='module')
+  script(src='./index.ts', type='module')
+  link(rel='stylesheet', href='../../styles/index.scss')
 
 block content
-  .page__profile
-    include ../Profile/components/Back/index
-    section.user__profile
-      main.profile__data
-        +Form('Change data')
-          +form__input({type: 'email', name: 'email', label: 'Email', required: false})
-          +form__input({type: 'text', name: 'login', label: 'Login', required: false})
-          +form__input({type: 'text', name: 'first_name', label: 'Name', required: false})
-          +form__input({type: 'text', name: 'second_name', label: 'Second Name', required: false})
-          +form__input({type: 'text', name: 'display_name', label: 'Nick Name', required: false})
-          +form__input({type: 'tel', name: 'phone', label: 'Phone', required: false})
-        .profile__controllers
-          +Button('save-changes__button', 'Save', 'send', 'primary')
+  #edit-data

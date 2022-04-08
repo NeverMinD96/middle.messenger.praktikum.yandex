@@ -1,9 +1,9 @@
 extends ../../layouts/content
-include ../../components/ErrorPageContainer/index
 
 block append head
   title Error 404
-  script(src='../../index.js', type='module')
+  script(src='./500.ts', type='module')
+  link(rel='stylesheet', href='../../styles/index.scss')
 
 block content
-  +ErrorPage('500','We are already fixing')
+  main#error-500
