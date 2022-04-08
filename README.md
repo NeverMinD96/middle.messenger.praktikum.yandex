@@ -8,9 +8,8 @@
 
 - `Pug`
 - `Scss`
-- `JS`
+- `TS`
 - `Parcel`
-- `Node.js`
 - `Express`
 
 ---
@@ -39,6 +38,10 @@ npm install
 
 До конца не готово
 
-=======
-[Sprint 1](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/2)
+---
+###[Sprint 1](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/2)
+
+---
+
+###[Sprint 2](https://github.com/NeverMinD96/middle.messenger.praktikum.yandex/pull/3)
 
