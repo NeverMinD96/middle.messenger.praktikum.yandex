@@ -6,8 +6,10 @@ interface InputRegExp {
 
 export const checkValid = (
   inputName: InputNames | string,
-  value: string,
+  value: string | FormDataEntryValue | null,
 ): boolean => {
+  if (!value) return false;
+
   const fields: Record<InputNames | string, InputRegExp> = {
     [InputNames.email]: {
       pattern: /.+@[^@]+[a-z]+\.[^@]{2,}$/,
@@ -46,5 +48,5 @@ export const checkValid = (
 
   const hasPattern = fields[inputName].pattern;
 
-  return hasPattern.test(value);
+  return hasPattern.test(value as string);
 };

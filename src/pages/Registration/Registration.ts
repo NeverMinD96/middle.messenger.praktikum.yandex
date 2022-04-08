@@ -22,7 +22,6 @@ export class RegistrationPage extends Block<RegistrationProps> {
             [InputNames.password]: formData.get('password'),
           };
           const isValid = Object.entries(data).every(([input, value]) =>
-            //@ts-ignore
             checkValid(input, value),
           );
 

@@ -18,7 +18,6 @@ export default class SignInPage extends Block<SignInProps> {
             [InputNames.password]: formData.get('password'),
           };
           const isValid = Object.entries(data).every(([input, value]) =>
-            //@ts-ignore
             checkValid(input, value),
           );
 

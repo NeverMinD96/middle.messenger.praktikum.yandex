@@ -21,7 +21,6 @@ export class EditProfile extends Block<EditProfileProps> {
             [InputNames.display_name]: formData.get('display_name'),
           };
           const isValid = Object.entries(data).some(([input, value]) =>
-            //@ts-ignore
             checkValid(input, value),
           );
 

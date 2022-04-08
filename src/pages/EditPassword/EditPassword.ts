@@ -19,7 +19,6 @@ export class EditPassword extends Block<EditPasswordProps> {
             [InputNames.repeatPassword]: formData.get('repeatPassword'),
           };
           const isValid = Object.entries(data).some(([input, value]) =>
-            //@ts-ignore
             checkValid(input, value),
           );
 
