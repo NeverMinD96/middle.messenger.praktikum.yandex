@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/NeverMinD96/middle.messenger.praktikum.yandex#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "nanoid": "^3.3.2",
-    "uuid": "^8.3.2"
+    "express": "4.17.3",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.4.1",
     "@parcel/transformer-pug": "^2.3.2",
     "@parcel/transformer-sass": "^2.3.2",
     "@prettier/plugin-pug": "^1.19.3",

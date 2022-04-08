@@ -22,11 +22,7 @@ export class FormInput extends Block<FormInputProps> {
     const value = (event.target as HTMLInputElement).value;
     const isValid = checkValid(name, value);
 
-    if (!isValid) {
-      this.setProps({ ...this.props, error: !isValid, value });
-    } else {
-      this.setProps({ ...this.props, error: !isValid, value });
-    }
+    this.setProps({ ...this.props, error: !isValid, value });
   }
 
   protected render() {

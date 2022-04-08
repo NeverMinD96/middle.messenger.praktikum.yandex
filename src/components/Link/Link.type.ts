@@ -1,5 +1,5 @@
 export interface LinkProps {
-  typeLink: 'primary' | '';
+  typeLink?: 'primary';
   href: string;
   text: string;
 }
