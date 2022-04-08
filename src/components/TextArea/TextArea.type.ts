@@ -1,7 +1,5 @@
-import { InputNames } from 'src/components/FormInput/FormInput.type';
-
 export interface TextAreaProps {
-  textAreaName: InputNames;
+  textAreaName: string;
   placeholder?: string;
   events?: {
     focusout: (event: Event) => void;

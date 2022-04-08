@@ -4,8 +4,11 @@ interface InputRegExp {
   pattern: RegExp;
 }
 
-export const checkValid = (inputName: InputNames, value: string): boolean => {
-  const fields: Record<InputNames, InputRegExp> = {
+export const checkValid = (
+  inputName: InputNames | string,
+  value: string,
+): boolean => {
+  const fields: Record<InputNames | string, InputRegExp> = {
     [InputNames.email]: {
       pattern: /.+@[^@]+[a-z]+\.[^@]{2,}$/,
     },
