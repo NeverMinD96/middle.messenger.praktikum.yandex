@@ -1,3 +1,30 @@
 .dialogue__header {
   grid-area: Header;
+  border-bottom: 1px solid $border__color;
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  &-settings {
+    cursor: pointer;
+    min-width: 20px;
+    min-height: 20px;
+  }
+}
+
+.user__info-name {
+  font-weight: 600;
+}
+.user__info-activity {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  color: $gray;
 }

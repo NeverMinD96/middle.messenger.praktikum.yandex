@@ -1,12 +1,18 @@
 @import 'src/styles/variables';
 
 .form__content-item {
+  height: auto;
 }
 
 .label__container {
   display: flex;
   flex-direction: column;
   text-align: center;
+
+}
+.label__container-input {
+  max-height: 100px;
+  min-height: 70px;
 
 }
 
@@ -44,5 +50,7 @@
 
   &-error {
     color: $red;
+    font-size: 12px;
+    line-height: 12px;
   }
 }

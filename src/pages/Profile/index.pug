@@ -2,9 +2,8 @@ extends ../../layouts/content
 
 block append head
   title Profile
-  script(src='../../index.js', type='module')
+  script(src='./index.ts', type='module')
+  link(rel='stylesheet', href='../../styles/index.scss')
 
 block content
-  .page__profile
-    include ./components/Back/index
-    include ./components/UserProfile/index
+  #page-profile

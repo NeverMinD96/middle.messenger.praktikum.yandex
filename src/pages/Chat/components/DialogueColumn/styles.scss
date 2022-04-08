@@ -1,4 +1,4 @@
-@import './components/DialogueContent/styles';
+@import 'components/DialogueBody/styles';
 @import './components/DialogueHeader/styles';
 
 .dialogue__column {
@@ -7,5 +7,5 @@
   grid-template-rows: minmax(80px, 135px) minmax(500px, 970px);
   grid-template-areas:
           'Header'
-          'Content';
+          'Body';
 }

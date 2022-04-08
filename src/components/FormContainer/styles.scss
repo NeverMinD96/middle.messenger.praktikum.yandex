@@ -18,7 +18,7 @@
 .form__footer {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 5px;
   align-items: center;
   width: 100%;
 
@@ -31,4 +31,9 @@
       transition: color .3s ease;
     }
   }
+}
+
+.form__error-text {
+  color: $red;
+  font-size: 10px;
 }

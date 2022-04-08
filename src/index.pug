@@ -1,7 +1,8 @@
 extends layouts/content
 block append head
   title Home
-  script(src='./index.js', type='module')
+  script(src='./index.ts', type='module')
+  link(rel='stylesheet', href='./styles/index.scss')
 
 block content
   ul
@@ -21,3 +22,4 @@ block content
       a(href='./pages/404/index.pug') Error 404 page
     li
       a(href='./pages/500/index.pug') Error 500 page
+  #app
